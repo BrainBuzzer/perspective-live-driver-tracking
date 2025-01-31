@@ -1,0 +1,22 @@
+{
+  "version": "3.3.0",
+  "plugin": "Map Scatter",
+  "plugin_config": {
+    "center": [13470339.459528035, 1649226.0326125654],
+    "zoom": 13
+  },
+  "columns_config": {},
+  "settings": true,
+  "theme": "Pro Dark",
+  "title": null,
+  "group_by": ["driver_id"],
+  "split_by": [],
+  "columns": ["lng", "lat", null, null, null],
+  "filter": [],
+  "sort": [],
+  "expressions": {},
+  "aggregates": {
+    "lat": ["weighted mean", "lat"],
+    "lng": ["weighted mean", "lng"]
+  }
+}
